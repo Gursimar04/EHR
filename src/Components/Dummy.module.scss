@@ -1,0 +1,47 @@
+.app{
+    display: flex;
+    height: 100%;
+}
+.green{
+    background-color: rgb(15, 184, 15);
+    color: white;
+}
+
+.nav{
+    height: 100vh;
+    position: sticky;
+}
+
+.mainContent{
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.notif{
+    flex-grow: 1;
+    padding-left: 2%;
+    padding-top: 2%;
+}
+
+.header{
+    margin-bottom: 1%;
+    border-bottom: 3px solid #1890ff ;
+    width:91%;
+    h1{
+        color: #1890ff;
+    }
+}
+
+ul > li {
+    cursor: pointer;
+    width:91%;
+    :hover{
+        box-shadow: 0 2px 3px -1px #1890ff;
+    }
+    :active{
+        transition-duration: 0.1s;
+        transform: scale(0.995);
+    }
+}
